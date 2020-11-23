@@ -266,6 +266,22 @@ hr{
   text-align: center;
   padding: 10px;
 }
+#edu>span{
+  display: inline-block;
+  background: #fff;
+  color: #ff1f44;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  width: 250px;
+}
+#line{
+  height: 50px;
+  border-left: 2px solid #fff;
+  margin: 0 auto;
+  width: 2px;
+  margin-top: -100px;
+}
 @media only screen and (max-width: 560px) {
   #projects{
     flex-direction: column;
