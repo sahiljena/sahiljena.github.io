@@ -43,6 +43,12 @@ footer{
 .navbar{
   margin-top: 10px;
 }
+.blog-card{
+  border-top: 2px solid ;
+  border-bottom: 2px solid ;
+  max-width: 900px;
+  margin: 0 auto;
+}
 #imp-line-name{
   margin-top: -20px;
   color: var(--lightdd) !important;
