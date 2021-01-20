@@ -49,6 +49,14 @@ footer{
   max-width: 900px;
   margin: 0 auto;
 }
+.looks-like-h1{
+  background: transparent;
+  border: 0px;
+  margin-left: -5px;
+}
+.card{
+  background: var(--dark) !important;
+}
 #imp-line-name{
   margin-top: -20px;
   color: var(--lightdd) !important;
