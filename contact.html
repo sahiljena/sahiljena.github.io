@@ -71,10 +71,12 @@
       form.reset();
       button.style = "display: none ";
       status.innerHTML = "<div class='toast toast-success'> <button class='btn btn-clear float-right'></button>Thanks for contacting me, I'll get back to you soon!</div>";
+      form.classList.remove('loading');
     }
 
     function error() {
       status.innerHTML = "<div class='toast toast-error'> <button class='btn btn-clear float-right'></button>Oops something went wrong!</div>";
+      form.classList.remove('loading');
     }
 
     // handle the form submission event
@@ -82,6 +84,7 @@
     form.addEventListener("submit", function(ev) {
       ev.preventDefault();
       var data = new FormData(form);
+      ev.target.classList.toggle('loading');
       ajax(form.method, form.action, data, success, error);
     });
   });
