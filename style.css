@@ -87,6 +87,16 @@ footer{
 #social a img:hover{
   transform: scale(1.2);
 }
+#my-form{
+  max-width: 500px !important;
+}
+#my-form input,textarea{
+  background: var(--dark) !important;
+  color: var(--lightv) !important;
+}
+#my-form label{
+  color: var(--lightv);
+}
 @media only screen and (min-width: 600px) {
   #para-name{
     max-width: 700px;
