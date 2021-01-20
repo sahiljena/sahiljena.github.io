@@ -53,6 +53,7 @@ footer{
   background: transparent;
   border: 0px;
   margin-left: -5px;
+  outline: none !important;
 }
 .card{
   background: var(--dark) !important;
