@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Contact Sahil</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+
+    <section class="navbar-center">
+      <!-- centered logo or brand -->
+    </section>
+    <section class="navbar-section">
+      <a href="#" class="btn btn-link active-link">Home</a>
+      <a href="blog.html" class="btn btn-link rest-link">Blog</a>
+      <a href="projects.html" class="btn btn-link rest-link">Projects</a>
+      <a href="contact.html" class="btn btn-link rest-link">Contact</a>
+    </section>
+  </header>
+  <br>
+<main>
+  <h1>
+    <span class="text-primary"> Contact</span>
+  </h1>
+  <p>
+    Fill in the form to contact me!
+  </p>
+  <form id="my-form" action="https://formspree.io/f/mjvplypo" method="POST">
+    <p id="my-form-status"></p>
+    <div class="form-group">
+      <label class="form-label" for="input-name-1">Name</label>
+      <input class="form-input" type="text" id="input-name-1" placeholder="Name" name="_replyto" required>
+    </div>
+    <div class="form-group">
+      <label class="form-label" for="input-email-2">E-mail</label>
+      <input class="form-input" type="email" id="input-email-2" placeholder="E-mail" name="name" required>
+    </div>
+    <!-- form textarea control -->
+    <div class="form-group">
+      <label class="form-label" for="input-example-3">Message</label>
+      <textarea class="form-input" id="input-example-3" placeholder="Type your message here." rows="3" name="message" required></textarea>
+    </div>
+    <button id="my-form-button" class="btn btn-primary" type="submit">Send</button>
+    
+  </form>
+  <br>
+  <a style="background: #212529;" class="btn" href="">Back to homepage</a>
+</main>
+<footer>
+  Made with ❤️ by sahiljena
+</footer>
+<!-- Place this script at the end of the body tag -->
+
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+
+    // get the form elements defined in your form HTML above
+    
+    var form = document.getElementById("my-form");
+    var button = document.getElementById("my-form-button");
+    var status = document.getElementById("my-form-status");
+
+    // Success and Error functions for after the form is submitted
+    
+    function success() {
+      form.reset();
+      button.style = "display: none ";
+      status.innerHTML = "<div class='toast toast-success'> <button class='btn btn-clear float-right'></button>Thanks for contacting me, I'll get back to you soon!</div>";
+    }
+
+    function error() {
+      status.innerHTML = "<div class='toast toast-error'> <button class='btn btn-clear float-right'></button>Oops something went wrong!</div>";
+    }
+
+    // handle the form submission event
+
+    form.addEventListener("submit", function(ev) {
+      ev.preventDefault();
+      var data = new FormData(form);
+      ajax(form.method, form.action, data, success, error);
+    });
+  });
+  
+  // helper function for sending an AJAX request
+
+  function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        success(xhr.response, xhr.responseType);
+      } else {
+        error(xhr.status, xhr.response, xhr.responseType);
+      }
+    };
+    xhr.send(data);
+  }
+</script>
+</body>
+</html>
