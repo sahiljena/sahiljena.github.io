@@ -20,6 +20,10 @@ h1,h2,h3,h4{
 p{
   color: var(--lightd) !important;
 }
+footer{
+  color: var(--lightv);
+  text-align: center;
+}
 .covered-bg{
   background: var(--lightv);
   color: var(--dark);
