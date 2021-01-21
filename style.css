@@ -106,6 +106,9 @@ footer{
 #my-form label{
   color: var(--lightv);
 }
+#my-form-status{
+  max-width: 500px !important;
+}
 @media only screen and (min-width: 600px) {
   #para-name{
     max-width: 700px;
