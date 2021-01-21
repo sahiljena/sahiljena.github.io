@@ -58,6 +58,17 @@ footer{
 .card{
   background: var(--dark) !important;
 }
+.blur {
+width:100%;
+height:100%;
+background-size:cover;
+-webkit-filter: blur(4px);
+-moz-filter: blur(4px);
+-ms-filter: blur(4px);
+-o-filter: blur(4px);
+filter: blur(4px);
+z-index: 9;
+}
 #imp-line-name{
   margin-top: -20px;
   color: var(--lightdd) !important;
