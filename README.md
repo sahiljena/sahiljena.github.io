@@ -22,3 +22,9 @@ Javascript used in this project is just for making the [loader](https://sahiljen
 - [Codepen Icon](https://cdn0.iconfinder.com/data/icons/social-media-2091/100/social-32-512.png)
 - [LinkedIn Icon](https://jaewon.design/asset/linkedin.png)
 - [Loding effect](https://codepen.io/jlsgl)
+
+# To-do tasks
+- [x] Separate folder for css and js
+- [ ] Use jenkins
+- [ ] Add Projects.html
+- [ ] Add blogs
