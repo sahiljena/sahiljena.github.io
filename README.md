@@ -4,16 +4,16 @@
 This is my personal portfolio website built with spectre.css
 
 
-
-# CSS
-Some custom [css](https://sahiljena.github.io/static/css/style.css) and [spectre css](https://picturepan2.github.io/spectre/) is used
-
-# Javascript
-Javascript used in this project is just for making the [loader](https://sahiljena.github.io/static/js/loader.js)
-
 # Deployed on
 - [Netlify](https://sahiljena.netlify.app/)
-- [Github Pages](https://sahiljena.github.io/)
+- [Github Pages](https://sahiljena.github.io/) 
+
+# Developer
+- [sahiljena](https://github.com/sahiljena)
+
+# Contact
+- [sahiljena46@gmail.com](mailto:sahiljena46@gmail.com) 
+- +91 8178812482
 
 # Acknowledgements
 - [spectre.css](https://picturepan2.github.io/spectre/)
