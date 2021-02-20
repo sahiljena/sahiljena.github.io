@@ -1,7 +1,8 @@
 # [sahiljena.github.io](https://sahiljena.github.io/)
 
 <img src="https://i.ibb.co/Kx1KtFc/Screenshot-2021-02-20-172317.png" alt="Website Screenshot">
-This is my personal portfolio website built with spectre css and material icons
+This is my personal portfolio website built with spectre.css
+
 
 
 # CSS
