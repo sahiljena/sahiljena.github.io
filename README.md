@@ -8,11 +8,11 @@ This is my personal portfolio website built with spectre.css
 - [Netlify](https://sahiljena.netlify.app/)
 - [Github Pages](https://sahiljena.github.io/) 
 
-# Developer
-- [sahiljena](https://github.com/sahiljena)
-
 # Fromspree API
 The [formspree API](https://formspree.io/) is used for sending the conatact form details to my mail id
+
+# Developer
+- [sahiljena](https://github.com/sahiljena)
 
 # Contact
 - [sahiljena46@gmail.com](mailto:sahiljena46@gmail.com) 
