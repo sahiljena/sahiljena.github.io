@@ -11,6 +11,9 @@ This is my personal portfolio website built with spectre.css
 # Developer
 - [sahiljena](https://github.com/sahiljena)
 
+# Fromspree API
+The [formspree API](https://formspree.io/) is used for sending the conatact form details to my mail id
+
 # Contact
 - [sahiljena46@gmail.com](mailto:sahiljena46@gmail.com) 
 - +91 8178812482
