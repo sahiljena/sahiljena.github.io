@@ -156,6 +156,7 @@ z-index: 9;
   margin: 0 auto;
   display: inline-block !important;
   margin-left: 10px;
+  margin-top: 10px !important;
 }
 .project-link-btn:hover{
   box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
@@ -184,23 +185,30 @@ z-index: 9;
 .red{
   color:#CF1020;
 }
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 860px) {
+  .container{
+    margin-left: -50px !important;
+  }
   .card{
-    margin-left: 0px;
+    margin-left: -10px;
     transform: scale(0.9);
   }
 }
 @media only screen and (max-width: 732px) {
+  .container{
+    margin-left: -50px !important;
+  }
   .card{
-    margin-left: 0px;
+    margin-left: -100px;
     transform: scale(0.8);
     margin-left: -20px;
   }
 }
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 650px) {
   .container{
     flex-direction: column;
     padding: 10px;
+    margin-left: 0px !important;
   }
   .card{
     margin-top: -10px;
