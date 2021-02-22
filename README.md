@@ -30,5 +30,5 @@ The [formspree API](https://formspree.io/) is used for sending the conatact form
 # To-do tasks
 - [x] Separate folder for css and js
 - [ ] Use jenkins
-- [ ] Add Projects.html
+- [X] Add Projects.html
 - [ ] Add blogs
