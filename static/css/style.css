@@ -178,18 +178,34 @@ z-index: 9;
 }
 
 /* for projects.html */
+.yellow{
+  color:#FFA500;
+}
+.red{
+  color:#CF1020;
+}
 @media only screen and (max-width: 760px) {
+  .card{
+    margin-left: 0px;
+    transform: scale(0.9);
+  }
+}
+@media only screen and (max-width: 732px) {
+  .card{
+    margin-left: 0px;
+    transform: scale(0.8);
+    margin-left: -20px;
+  }
+}
+@media only screen and (max-width: 630px) {
   .container{
     flex-direction: column;
     padding: 10px;
-    margin:  5px 23px 15px -5px;
   }
   .card{
+    margin-top: -10px;
+    transform: scale(1);
+    margin-top: 10px;
     margin-left: 0px;
-  }
-  .card img{
-    width: 225px;
-    height: auto;
-    margin: 0 auto;
   }
 }
