@@ -5,7 +5,7 @@ This is my personal portfolio website built with spectre.css
 
 
 # Deployed on
-- [Netlify](https://sahiljena.netlify.app/)
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/e5ab2fc8-adc8-4a8d-8822-8fa234c10e47/deploy-status)](https://app.netlify.com/sites/sahiljena/deploys)
 - [Github Pages](https://sahiljena.github.io/) 
 
 # Fromspree API
